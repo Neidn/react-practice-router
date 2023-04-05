@@ -1,6 +1,6 @@
 .header {
   max-width: 60rem;
-  margin: auto; 
+  margin: auto;
   padding: 2rem;
   display: flex;
   justify-content: space-between;
@@ -14,4 +14,10 @@
 .list a {
   text-decoration: none;
   color: var(--color-primary-400);
+}
+
+.list a:hover,
+.list a.active {
+  text-decoration: underline;
+  color: var(--color-primary-800);
 }
