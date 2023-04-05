@@ -1,0 +1,9 @@
+# ide
+.idea
+
+# log files
+*.log
+
+# node files
+node_modules
+package-lock.json
