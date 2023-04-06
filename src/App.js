@@ -8,12 +8,12 @@ import RootLayout from "./pages/Root";
 
 const router = createBrowserRouter([
   {
-    path: "root",
+    path: "",
     element: <RootLayout/>,
     errorElement: <ErrorPage/>,
     children: [
       {
-        path: "",
+        index: true,
         element: <HomePage/>,
       },
       {
